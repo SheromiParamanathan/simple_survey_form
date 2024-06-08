@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">easyLearn.</h1>
+    <h1 id="subtitle">easyLearn Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+      <div id="form-inside">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name" required/></input><br><br>
+
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" id="email" placeholder="Enter your Email" required/></input><br><br>
+
+      <label for="country" id="country-label">Country</label><br>
+      <input type="text" id="country" placeholder="Enter your country" required/></input><br><br>
+
+      <label for="age" id="number-label">Age</label>
+      <span>(Oprional)</span><br>
+      <input type="number" id="number" placeholder="Age" min="0" max="120"></input><br><br>
+
+      <label for="select">Which option describes your current role?</label><br>
+      <select  id="dropdown">
+        <option>Select current role</option>
+        <option>School student</option>
+        <option>Undergraduate</option>
+        <option>Full time job</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select><br><br>
+
+      <label for="radio1">Area of Study?</label><br>
+      <input type="radio" name="recommend" value="recommend">Technology</input><br>
+      <input type="radio" name="recommend" value="recommend">Business</input><br>
+      <input type="radio" name="recommend" value="recommend">Languages</input><br>
+      <input type="radio" name="recommend" value="recommend">Media</input><br>
+      <input type="radio" name="recommend" value="recommend">Others</input><br><br>
+
+      <label for="radio2">Would you recommend easyLearn to a friend?</label><br>
+      <input type="radio" name="recommend" value="recommend">Definately</input><br>
+      <input type="radio" name="recommend" value="recommend">Maybe</input><br>
+      <input type="radio" name="recommend" value="recommend">Not sure</input><br><br>
+
+      <label for="select2">What is your favorite feature of easyLearn?</label><br>
+      <select id="dropdown2">
+        <option>Select an object</option>
+        <option>Open source</option>
+        <option>Courses</option>
+        <option>Quizes</option>
+        <option>Challenges</option>
+        <option>Community</option> 
+      </select><br><br>
+
+      <label for="checkbox">What would you like to see improved?</label><br>
+       <input type="checkbox" value="Couse">Courses</input><br>
+       <input type="checkbox" value="Video">Videos</input><br>
+       <input type="checkbox" value="Quiz">Quizes</input><br>
+       <input type="checkbox" value="Grade">Grades</input><br>
+       <input type="checkbox" value="Challenge">Challenges</input><br>
+       <input type="checkbox" value="Certificate">Certificates</input><br>
+       <input type="checkbox" value="Help">Help Rooms</input><br>
+       <input type="checkbox" value="Forum">Forum</input><br>
+       <input type="checkbox" value="Open">Community</input><br>
+       <input type="checkbox" value="Other">Other</input><br><br>
+       
+
+       <label for="comments">Any comments or suggestions?</label><br>
+       <textarea placeholder="Enter your comment here... "rows="10" cols="60" ></textarea><br><br>
+
+       <button id="submit" type="submit">Submit</button>
+    <div>
+    </form>
+  </body>
+</html>
